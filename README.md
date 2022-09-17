@@ -10,4 +10,6 @@ Object Detection is a computer technology related to computer vision, image proc
 
 This project detects objects using the mobileNet SSD method. Therefore before proceeding, three files are a pre-requisite_'coco.names', 'ssd_mobolenet_v3_large_coco_2020_01_14.' and 'frozen_inference_graph.pb'. The code is saved in Object_detection for the program. This code when run, will detect objects provided the 3 files mentioned before are stored in the same folder as the python file.  For a deep learning or machine learning model we need good orecision. Here coco.names comes into picture. COCO stands for Common Objects in Context.  This dataset contains objects from an everyday context. COCO dataset provides the labeling and segmentation of the objects in the images. There are 80 object categories of labeled and segmented images in the file. Thus our model can detect and identify 80 types of objects in this code.
 
-Here we have used className to retrieve the 80 object categories 0f coco.names so that we can use them. 
+Here we have used className to retrieve the 80 object categories 0f coco.names so that we can use them. This is where we can use file handling and string methods. We read our file using f.read(), remove or strip the spaces on the right of words using .rstrip(\n) and separated words by breaking lines where there is space using split(\n). Refer to string methods to get a proper grasp on these concepts.
+
+
