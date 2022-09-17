@@ -6,10 +6,4 @@ Nowadays, the use of AI has a broad area which is facialiated by the openCV. The
 
 # Object Detection
 
-Object Detection is a computer technology related to computer vision, image processing, and deep learning that deals with detecting instances of objects in images and videos. Here, we have detected the object using a haar cascades.
-
-## Haar Cascades 
-
-Haar Cascade classifiers are an effective way for object detection. This method was proposed by Paul Vioala and Michael Jones in their paper Rapid Object Detection using a Boosted Cascade of Simple Features. Haar Cascade is a machine learning-based approach where a lot of positive and negativev are used to train the classifier. 
-
-
+Object Detection is a computer technology related to computer vision, image processing, and deep learning that deals with detecting instances of objects in images and videos. Object vision is also known as an important computer vision task used to detect instances of visual objects of certain classes (for example humans, animals, cars or buildings) in digital images such as photos or video frames. The goal of object detection is to develop computional models that provide the most fundamental information neded by the computer vision applications. 
