@@ -24,6 +24,6 @@ The file 'frozen_inference_graph.pb' is a about frozen graph. Freezing is the pr
 ## Output figures
 
 <p align="center">
-  <img src="../main/Object_detection/street_detection.png"  width="48%" />
+  <img src="../main/Object_detection/street_detection.png"  width="40%" />
   <img src="../main/Object_detection/cycle_detection_2.png"  width="48%" /> 
 </p>
