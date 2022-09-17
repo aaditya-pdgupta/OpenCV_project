@@ -37,3 +37,10 @@ In order to work, face detection applications use machine learning algorithms to
 In the program we have used a CascadeClassifier which is a classifier used to detect the object for which it has been trained for. The Haar cascade is trained by superimposing the positive image over a set of images. This type of training is generally done a server and on various stages. Better results are obtained by using high quality images and increasing the amount of stages for which the classifier is trained for. OpenCV comes with lots of pre-trained classifiers. Those XML files can be loaded by cascadeClassifier method of the cv2 module. Here we have used haarcascade_frontalface_default.xml for detecting faces. Initially, the image is a three-layer image (i.e., RGB), So It is converted to a one-layer image (i.e., grayscale). The face detection method on the grayscale image is applied in the program. 
 
 This is done using the cv2::CascadeClassifier::detectMultiScale method, which returns boundary rectangles for the detected faces (i.e., x, y, w, h). It takes two parameters namely, scaleFactor and minNeighbors. ScaleFactor determines the factor of increase in window size which initially starts at size “minSize”, and after testing all windows of that size, the window is scaled up by the “scaleFactor”, and the window size goes up to “maxSize”. If the “scaleFactor” is large, (e.g., 2.0), there will be fewer steps, so detection will be faster, but we may miss objects whose size is between two tested scales. (default scale factor is 1.3). Higher the values of the “minNeighbors”, less will be the number of false positives, and less error will be in terms of false detection of faces. However, there is a chance of missing some unclear face traces as well. Rectangles are drawn around the detected faces by the rectangle method of the cv2 module by iterating over all detected faces. 
+
+## Input figure
+
+<p align="center">
+  <img src="../main/Face_recognition/face_detection.jpg" width="250" height="250"/>
+</p>
+
