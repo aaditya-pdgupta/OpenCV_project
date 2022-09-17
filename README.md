@@ -41,5 +41,5 @@ This is done using the cv2::CascadeClassifier::detectMultiScale method, which re
 ## Input figure
 
 <p align="center">
-  <img src="../main/Face_recognition/face_determination.jpg" width="250" height="100"/>
+  <img src="../main/Face_recogination/face_determination.jpg" width="250" height="100"/>
 </p>
