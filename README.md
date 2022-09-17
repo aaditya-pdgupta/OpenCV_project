@@ -28,7 +28,7 @@ The file 'frozen_inference_graph.pb' is a about frozen graph. Freezing is the pr
   <img src="../main/Object_detection/cycle_detection_2.png"  width="48%" /> 
 </p>
 
-# Face recognition
+# Face Detection
 
 Face detection is a computer vision technology that helps to locate/visualize human faces in digital images. This technique is a specific use case of object detectiom technology that deals with detecting instances of semantic objects of certain class (such as jumans, buildings or cars) in digital images and videos. With the advent of technology, face detection has gained a lot of importance especially in fields such as photography, security,marketing, etc. 
 
@@ -42,4 +42,10 @@ This is done using the cv2::CascadeClassifier::detectMultiScale method, which re
 
 <p align="center">
   <img src="../main/Face_recogination/face_detection.jpg" width="500" height="500"/>
+</p>
+
+## Output figure
+
+<p align="center">
+  <img src="../main/Face_recogination/face_detection_2.png" width="500" height="500"/>
 </p>
