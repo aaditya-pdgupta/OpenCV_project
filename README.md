@@ -30,4 +30,6 @@ The file 'frozen_inference_graph.pb' is a about frozen graph. Freezing is the pr
 
 # Face recognition
 
-Face detection is a computer vision technology that helps to locate/visualize human faces in digital images. This technique is a specific use case of object detectiom technology that deals with detecting instances of semantic objects of certain class (such as jumans, buildings or cars) in digital images and videos. With the advent of technology, face detection has gained a lot of importance especially in fields such as photography, security and marketing.
+Face detection is a computer vision technology that helps to locate/visualize human faces in digital images. This technique is a specific use case of object detectiom technology that deals with detecting instances of semantic objects of certain class (such as jumans, buildings or cars) in digital images and videos. With the advent of technology, face detection has gained a lot of importance especially in fields such as photography, security,marketing, etc. 
+
+In order to work, face detection applications use machine learning algorithms to detect the human faces within images of any size. The larger images might contain numerous objects that are not facing such as landscapes, objects, animals, buildings and other parts of humans (eg. legs, shoulder and arms).
