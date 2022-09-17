@@ -17,8 +17,8 @@ The file 'frozen_inference_graph.pb' is a about frozen graph. Freezing is the pr
 ## Input figures
 
 <p align="center">
-  <img src="../main/Object_detection/street_detection.png"  width="48%" />
-  <img src="../main/Object_detection/cycle_detection"  width="48%" /> 
+  <img src="../main/Object_detection/street.jpg"  width="48%" />
+  <img src="../main/Object_detection/cycle_detection.png"  width="48%" /> 
 </p>
 
 
