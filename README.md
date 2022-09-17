@@ -27,3 +27,5 @@ The file 'frozen_inference_graph.pb' is a about frozen graph. Freezing is the pr
   <img src="../main/Object_detection/street_detection_2.png"  width="48%" />
   <img src="../main/Object_detection/cycle_detection_2.png"  width="48%" /> 
 </p>
+
+# Face recognition
